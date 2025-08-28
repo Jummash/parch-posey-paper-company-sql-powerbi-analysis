@@ -53,8 +53,9 @@ This approach ensured the insights were not just descriptive, but **strategicall
 
   ## 🖼 Visuals  
 
-### 🗂 Database Schema  
-![Parch & Posey ERD](database_Schema/ERD.png)  
+### 🗂 Database ERD 
+![Parch & Posey ERD](https://raw.githubusercontent.com/Jummash/parch-posey-paper-company-sql-powerbi-analysis/main/database_Schema/ERD_diagram/parch_posey_ERD.png)
+  
 
 ### 📊 Dashboard Preview  
 ![Parch & Posey Dashboard](dashboards/parch_posey_visual.png)  
@@ -81,5 +82,13 @@ This approach ensured the insights were not just descriptive, but **strategicall
 
 ---
 
+
 ## 📑 Documentation  
 For detailed methodology, SQL breakdowns, and recommendations, check the full [Documentation](DOCUMENTATION.md).  
+By combining SQL queries with Power BI dashboards, I transformed raw data into meaningful insights for business decision-making.
+
+## 📬 Contact  
+👤 **Jumoke Ashogbon**  
+🔗 [LinkedIn](https://www.linkedin.com/in/ashogbon-jumoke-b825a7347/) | [GitHub](https://github.com/Jummash) | 📧 Olajumokecourtney@gmail.com 
+
+
