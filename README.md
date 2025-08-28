@@ -1,4 +1,4 @@
-# parch-posey-paper-company-sql-powerbi-analysis
+#📊 parch-posey-paper-company-sql-powerbi-analysis
 Business insights from Parch &amp; Posey data using SQL queries and Power BI
 
 This project was developed during my time at **HerTechTrail Data Analytics Starter Track**.  
@@ -54,10 +54,11 @@ This approach ensured the insights were not just descriptive, but **strategicall
   ## 🖼 Visuals  
 
 ### 🗂 Database Schema  
-![Parch & Posey ERD](schema/parch_posey_schema.png)  
+![Parch & Posey ERD](database_Schema/ERD dparch_posey_ERD.png)  
 
 ### 📊 Dashboard Preview  
-![Parch & Posey Dashboard](dashboards/parch_posey_dashboard.png)  
+![Parch & Posey Dashboard](dashboards/parch_posey_visual.png)  
+![Parch & Posey Dashboard](dashboards/parch_posey.png)
 
 
 ---
