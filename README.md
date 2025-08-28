@@ -84,7 +84,7 @@ This approach ensured the insights were not just descriptive, but **strategicall
 
 
 ## 📑 Documentation  
-For detailed methodology, SQL breakdowns, and recommendations, check the full [Documentation](DOCUMENTATION.md).  
+For detailed methodology, SQL breakdowns, and recommendations, check the full [DOCUMENTATION](DOCUMENTATION).  
 By combining SQL queries with Power BI dashboards, I transformed raw data into meaningful insights for business decision-making.
 
 ## 📬 Contact  
