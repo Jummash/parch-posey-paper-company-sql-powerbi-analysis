@@ -1,0 +1,140 @@
+# 📑 Parch & Posey – SQL & Power BI Analysis (Detailed Documentation)  
+
+This document provides the full analysis carried out using **SQL** and visualized in **Power BI**. The goal was to uncover insights about sales performance, customer behavior, marketing channels, and profitability for **Parch & Posey**, a paper company.  
+
+---
+
+## 🧠 Methodology & Analytical Approach  
+
+To ensure a structured and comprehensive analysis, I applied the following steps:  
+
+- **Data Restructuring:** Unpivoted product quantity columns to enable comparison across paper types.  
+- **Sales Aggregation:** Summarized revenues and order volumes across regions and timeframes.  
+- **Customer Lifecycle Analysis:** Tracked the journey from first website visit to first purchase.  
+- **Retention Segmentation:** Categorized purchase frequency to better understand customer retention and loyalty.  
+
+This approach ensured the insights were not just descriptive, but **strategically aligned with business decisions** in sales, marketing, and operations.  
+
+---
+
+## 1️⃣ Data Overview  
+
+- **Dataset:** Parch & Posey company database  
+- **Tables Used:**  
+  - `accounts` – customer accounts  
+  - `orders` – all purchase orders  
+  - `sales_reps` – sales representatives  
+  - `web_events` – customer marketing interactions  
+  - `region` – regional segmentation of customers  
+- **Timeframe:** 2013–2017  
+- **Tools Used:** SQL (PostgreSQL), Power BI  
+
+---
+
+## 2️⃣ Analysis by SQL Queries  
+
+### 🔹 Query 1: Total Orders & Revenue by Year  
+- Extracted **annual order counts and revenue totals**.  
+- 📈 **Insight:** Orders and revenue grew steadily from 2013 to 2017, with **2016 as the peak year**.  
+- 💡 **Recommendation:** Double down on campaigns that worked in 2016; investigate why 2017 slowed.  
+
+### 🔹 Query 2: Top Customers by Lifetime Value  
+- Identified **top 10 customers by total revenue**.  
+- 📈 **Insight:** A few customers contribute disproportionately to revenue, showing dependency risk.  
+- 💡 **Recommendation:** Strengthen relationships with top customers while diversifying to reduce reliance.  
+
+### 🔹 Query 3: Sales by Region  
+- Compared **revenue and orders by region**.  
+- 📈 **Insight:** The **Northeast and Midwest** regions consistently outperform others in both volume and revenue.  
+- 💡 **Recommendation:** Expand distribution and marketing in underperforming regions (South/West).  
+
+### 🔹 Query 4: Most Popular Paper Types  
+- Counted orders by paper type (Standard, Gloss, Poster).  
+- 📈 **Insight:** **Standard paper dominates demand** across all regions.  
+- 💡 **Recommendation:** Optimize supply chain for Standard paper; use Gloss/Poster as niche upsells.  
+
+### 🔹 Query 5: Sales Rep Performance  
+- Ranked sales reps by **total revenue and accounts managed**.  
+- 📈 **Insight:** A few reps carry most of the revenue, while others underperform.  
+- 💡 **Recommendation:** Reallocate accounts or provide training to low-performing reps.  
+
+### 🔹 Query 6: First Orders vs Web Events  
+- Measured **time lag between first web interaction and first order**.  
+- 📈 **Insight:** Customers typically convert quickly after web contact.  
+- 💡 **Recommendation:** Prioritize digital channels (organic & direct web events) for customer acquisition.  
+
+### 🔹 Query 7: Average Order Size Over Time  
+- Calculated **average revenue per order by year/quarter**.  
+- 📈 **Insight:** Average order size increased over time, signaling **growing customer confidence**.  
+- 💡 **Recommendation:** Encourage bulk orders through discount incentives for large purchases.  
+
+### 🔹 Query 8: Marketing Channels Analysis  
+- Counted **orders and revenue by marketing channel**.  
+- 📈 **Insight:** **Organic search and direct traffic** drive the most engagement and sales.  
+- 💡 **Recommendation:** Continue investing in SEO and direct outreach while improving underperforming channels.  
+
+### 🔹 Query 9: Product Returns (if analyzed)  
+- Tracked **return frequency across categories**.  
+- 📈 **Insight:** Very low return rates — customer satisfaction is strong.  
+- 💡 **Recommendation:** Promote product reliability as a competitive advantage.  
+
+### 🔹 Query 10: Profitability Trends  
+- Assessed **profit margin trends by year and region**.  
+- 📈 **Insight:** Profits follow sales growth but margins fluctuate with discounts and costs.  
+- 💡 **Recommendation:** Refine discount strategy to avoid margin erosion.  
+
+---
+
+## 3️⃣ Power BI Dashboard Insights  
+
+### 📊 Sales Dashboard  
+- KPIs: Total Revenue, Total Orders, Avg. Order Value.  
+- Trend analysis shows strong growth through 2016, slight dip in 2017.  
+
+### 📊 Regional Dashboard  
+- Sales heatmap by region and top-performing states.  
+- Northeast & Midwest dominate; South lags.  
+
+### 📊 Customer & Rep Dashboard  
+- Highlights top 10 customers and sales rep performance.  
+- Confirms heavy reliance on a few key customers and reps.  
+
+### 📊 Marketing Dashboard  
+- Shows which web channels drive most conversions.  
+- Organic and direct channels outperform paid campaigns.  
+
+---
+
+## 4️⃣ Recommendations  
+
+1. **Customer Strategy:**  
+   - Diversify customer base to reduce dependency on top accounts.  
+   - Launch loyalty programs for high-value customers.  
+
+2. **Product Strategy:**  
+   - Prioritize Standard paper inventory (highest demand).  
+   - Use Gloss/Poster paper as upsell opportunities.  
+
+3. **Regional Strategy:**  
+   - Invest in South & West with marketing/distribution expansion.  
+   - Retain dominance in Northeast & Midwest.  
+
+4. **Sales Strategy:**  
+   - Train/reassign low-performing sales reps.  
+   - Reward top performers to maintain motivation.  
+
+5. **Marketing Strategy:**  
+   - Invest more in **SEO & direct campaigns**.  
+   - Reevaluate low-performing channels for budget reallocation.  
+
+6. **Operational Strategy:**  
+   - Offer bulk-purchase incentives to grow order size.  
+   - Monitor discounting practices to protect margins.  
+
+---
+
+## 5️⃣ Conclusion  
+
+This analysis demonstrates how **SQL querying and Power BI visualization** can combine to deliver actionable business insights.  
+
+The company shows **steady growth**, but also **risks** in terms of customer dependency, regional imbalance, and discount-driven margin fluctuations. By acting on the recommendations above, Parch & Posey can improve **profitability, regional reach, and sales efficiency**.  
