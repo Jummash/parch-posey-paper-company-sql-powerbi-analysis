@@ -46,15 +46,15 @@ This approach ensured the insights were not just descriptive, but **strategicall
 
 
 ## 📂 Project Structure  
-- **SQL/** → Core business queries written in PostgreSQL.  
-- **dashboards/** → Power BI visualizations (sales, regional performance, profitability).  
-- **schema/** → Database schema of the Parch & Posey dataset.  
+- **SQL/** →10 Core business queries written in PostgreSQL.  
+- **dashboards/** → Power BI visualizations (sales, regional performance, market trends).  
+- **database_schema/** → It contains the entity–relationship diagram(ERD) of the Parch & Posey dataset.  
 - **DOCUMENTATION.md** → Full detailed analysis, methodology, insights, and recommendations.
 
   ## 🖼 Visuals  
 
 ### 🗂 Database Schema  
-![Parch & Posey ERD](database_Schema/ERD_diagram.png)  
+![Parch & Posey ERD](database_Schema/ERD.png)  
 
 ### 📊 Dashboard Preview  
 ![Parch & Posey Dashboard](dashboards/parch_posey_visual.png)  
